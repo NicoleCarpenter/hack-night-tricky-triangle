@@ -15,7 +15,7 @@ class Board
   end
 
   def find_number_of_spaces
-    (BOARD_SIZE * BOARD_SIZE) - BOARD_SIZE
+    (BOARD_SIZE * (BOARD_SIZE + 1)) / 2
   end
 
   def all_positions(number_of_spaces)
